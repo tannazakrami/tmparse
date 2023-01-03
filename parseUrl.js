@@ -118,12 +118,8 @@ module.exports = {
                     for(let check of ar){
                         if(check.includes('свободен')){
                             await setData([ar])
+                            return
                         }
-                    }
-                    if(ar.includes('свободен') == true)
-                    {
-                        console.log(test)
-                        await setData([ar])
                     }
                     arrayObj.push(obj);
                 }

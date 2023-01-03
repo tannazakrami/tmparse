@@ -4,7 +4,7 @@ const arrayUrl = [];
 
 const makeUrl = (countUrl) => {
     for(var i = 0; i < countUrl; i++){
-        arrayUrl.push(`https://tsdr.uspto.gov/statusview/sn${77360592 - i}`)
+        arrayUrl.push(`https://tsdr.uspto.gov/statusview/sn${77354081 - i}`)
     }
 }
 
